@@ -43,6 +43,11 @@ def solve(activities: dict, weights: dict, n_sessions: int):
                 activity_sessions[act] <= details["max_sessions"],
                 f"Max_sessions_{act}",
             )
+        if "min_sessions" in details:
+            prob += (
+                activity_sessions[act] >= details["min_sessions"],
+                f"Min_sessions_{act}",
+            )
 
     prob.solve()
     return prob, activity_sessions

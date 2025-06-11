@@ -9,15 +9,16 @@ I've built this for my own purposes. There are no guarantees that it produces a 
 Clone repo and install with `pip install -e .`.
 
 ### Usage
-To set activities and priorities, edit `activities.toml`. To add strength training, for example:
+To set activities and priorities, edit `activities.toml`. To add at least one trail run (but no more than two) per week, for example:
 ```
-[activities.strength_training]
-arm_strength = 2
-core_strength = 3
-leg_strength = 2
-cardio = 0
-balance = 0
-max_sessions = 3
+[activities.trail_running]
+arm_strength = 0
+core_strength = 4
+leg_strength = 9
+cardio = 10
+balance = 4
+min_sessions = 1
+max_sessions = 2
 ```
 
 Adjust values based on your own training. Admittedly, the values are somewhat arbitrary.
@@ -29,8 +30,8 @@ Status: Optimal
 Recommended training schedule:
   strength_training: 0
   erg: 0
-  trail_running: 3
-  road_running: 1
+  trail_running: 2
+  road_running: 2
   bouldering: 0
   ww_kayaking: 0
   cycling: 1
