@@ -1,9 +1,0 @@
-pyproject.toml
-src/solvefit/__init__.py
-src/solvefit/solvefit.py
-src/solvefit.egg-info/PKG-INFO
-src/solvefit.egg-info/SOURCES.txt
-src/solvefit.egg-info/dependency_links.txt
-src/solvefit.egg-info/entry_points.txt
-src/solvefit.egg-info/requires.txt
-src/solvefit.egg-info/top_level.txt

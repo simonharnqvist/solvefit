@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: solvefit
-Version: 0.1.0
-Summary: CLI tool to optimise limited training time
-Requires-Python: >=3.11
-Requires-Dist: pulp<3.0,>=2.7
-Requires-Dist: toml<1.0,>=0.10
-Requires-Dist: numpy<2.0,>=1.24
-Requires-Dist: click>=8.1
