@@ -1,0 +1,72 @@
+# activities.toml
+
+[activities.strength_training]
+arm_strength = 2
+core_strength = 3
+leg_strength = 2
+cardio = 0
+balance = 0
+max_sessions = 3
+
+[activities.erg]
+arm_strength = 1
+core_strength = 2
+leg_strength = 1
+cardio = 0
+balance = 0
+max_sessions = 6
+
+[activities.trail_running]
+arm_strength = 0
+core_strength = 1
+leg_strength = 2
+cardio = 3
+balance = 1
+max_sessions = 3
+
+[activities.road_running]
+arm_strength = 0
+core_strength = 1
+leg_strength = 2
+cardio = 3
+balance = 0
+max_sessions = 3
+
+[activities.bouldering]
+arm_strength = 2
+core_strength = 2
+leg_strength = 1
+cardio = 0
+balance = 2
+max_sessions = 2
+
+[activities.polo]
+arm_strength = 1
+core_strength = 1
+leg_strength = 0
+cardio = 1
+balance = 2
+max_sessions = 1
+
+[activities.ww_kayaking]
+arm_strength = 1
+core_strength = 2
+leg_strength = 0
+cardio = 1
+balance = 2
+max_sessions = 1
+
+[activities.cycling]
+arm_strength = 0
+core_strength = 1
+leg_strength = 2
+cardio = 3
+balance = 1
+max_sessions = 1
+
+[weights]
+arm_strength = 0.10
+core_strength = 0.25
+leg_strength = 0.10
+cardio = 0.50
+balance = 0.05

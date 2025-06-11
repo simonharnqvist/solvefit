@@ -1,0 +1,2 @@
+[console_scripts]
+solvefit = solvefit.solvefit:cli
